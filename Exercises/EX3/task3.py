@@ -4,6 +4,5 @@ def run():
         if number %i == 0:
             print(i)
 
-
 if __name__ == '__main__':
     run()
