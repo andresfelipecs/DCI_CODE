@@ -6,7 +6,7 @@
 
 def run():
     counter = 0
-    while counter < 3:
+    while counter < 2:
         number1 = int(input('Enter first number: '))
         number2 = int(input('Enter second number: '))
         
@@ -23,10 +23,30 @@ def run():
         else:
             print('Second number is smaller than or not equal to first number')
         if number1 >= 5000 and number2 >= 5000:
+
             print('Both numbers are big!')
         else:
             print('Both numbers are not big :(')
-        
+        #counter += 1
+        #big_numbers = True
+        #for i in range(2):
+            # for value in big_numbers:(its not possible to iterate a Boolean)
+        if counter == 0:
+        #for value in [1,2]:
+            big_numbers = True   
+            #if value == 1: 
+            #if big_numbers == True:
+            print('big_numbers is set to ', big_numbers)
+        else:
+            big_numbers = False
+            print('big_numbers is set to ', big_numbers)
+            #continue
+            #big_numbers = False
+            #for value in big_numbers:
+            #    if big_numbers == False:
+            #       print('big_numbers is set to ', big_numbers)
+
+            
         counter += 1
         
 
