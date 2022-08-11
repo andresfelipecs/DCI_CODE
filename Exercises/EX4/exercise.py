@@ -30,10 +30,10 @@ def run():
             print('first number is less than second number ')
         else:
             print('first number is greater or equal than first number')
-        if len(number1) >=4 and len(number2) >= 4:
-            print('Both numbers are bigger than: 1000')
+        if len(str(number1)) >=4 and len(str(number2)) >= 4:
+            print('Both numbers are bigger than: 1000 and have more than 4 digits')
         else:
-            print('both numbers are smaller than: 1000')    
+            print('both numbers are smaller than: 1000 and have less than 4 digits')    
         if not 1 <= number1 < 1000:
             print('first number has 4 digits')
         else:
