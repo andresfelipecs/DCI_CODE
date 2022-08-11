@@ -22,11 +22,11 @@ def run():
             print('Second number is greater than or equal to first number')
         else:
             print('Second number is smaller than or not equal to first number')
-        if number1 >= 5000 and number2 >= 5000:
-
+        if number1 + number2 >= 6666:
+        #if number1 >= 5000 and number2 >= 5000:
             print('Both numbers are big!')
         else:
-            print('Both numbers are not big :(')
+            print('Both numbers are not big :( !')
         #counter += 1
         #big_numbers = True
         #for i in range(2):
@@ -38,17 +38,18 @@ def run():
             #if big_numbers == True:
             print('big_numbers is set to ', big_numbers)
         else:
-            big_numbers = False
-            print('big_numbers is set to ', big_numbers)
+                big_numbers = False
+                print('big_numbers is set to ', big_numbers)
             #continue
             #big_numbers = False
             #for value in big_numbers:
             #    if big_numbers == False:
             #       print('big_numbers is set to ', big_numbers)
-
+        
             
         counter += 1
-        
+        if counter == 1:
+            print('\n')
 
 
 if __name__ == '__main__':
