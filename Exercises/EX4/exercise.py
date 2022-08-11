@@ -22,6 +22,18 @@ def run():
             print('Second number is greater than or equal to first number')
         else:
             print('Second number is smaller than or not equal to first number')
+        if number1 <= number2:
+            print('first number is less than or equal to second number')
+        else:
+            print('first number is greater than first number')
+        if number1 < number2 and number1 == 1234:
+            print('first number is less than second number and the second number is also 1234')
+        else:
+            print('first number is greater than first number')
+        if number1 <= number2:
+            print('first number is less than or equal to second number')
+        else:
+            print('first number is greater than first number')    
         if number1 + number2 >= 6666:
         #if number1 >= 5000 and number2 >= 5000:
             print('Both numbers are big!')
