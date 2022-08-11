@@ -9,7 +9,7 @@ def run():
     while counter < 2:
         number1 = int(input('Enter first number: '))
         number2 = int(input('Enter second number: '))
-        
+        number3 = None
         if number1 != number2:
             print('Number are not equal')
         else:
@@ -36,6 +36,10 @@ def run():
             print('both numbers are smaller than: 1000 and have less than 4 digits')    
         if not 1 <= number1 < 1000:
             print('first number has 4 digits')
+        else:
+            print('first number has 3 digits')
+        if number3 is None:
+            print('We have not asked for a third number')
         else:
             print('first number has 3 digits')
         if number1 + number2 >= 6666:
