@@ -9,6 +9,7 @@ def run():
     while counter < 3:
         number1 = int(input('Enter first number: '))
         number2 = int(input('Enter second number: '))
+        
         if number1 != number2:
             print('Number are not equal')
         else:
@@ -25,6 +26,7 @@ def run():
             print('Both numbers are big!')
         else:
             print('Both numbers are not big :(')
+        
         counter += 1
         
 
