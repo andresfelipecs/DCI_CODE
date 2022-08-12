@@ -8,7 +8,8 @@ def run():
             result = result * 2
         else:
             result = abs(result)
-        print('The result of calculation is  ')
+        print('The result of calculation is  ', result, '\n')
+
 
 
 
