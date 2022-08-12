@@ -9,7 +9,11 @@ def run():
         number2 = int(input('Second number: '))
         number3 = int(input('Third number: '))
         result = number1 + number2 + number3
-        print('The sum is: ',result, '\n')
+        if number1 == number2 == number3:
+            result = result * 3 
+            print('the triple sum is: ', result)
+        else:
+            print('The sum is: ',result, '\n')
 
 
 
