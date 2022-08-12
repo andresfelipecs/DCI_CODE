@@ -37,7 +37,7 @@ def run():
         if not 1 <= number1 < 1000:
             print('first number has 4 digits')
         else:
-            print('first number has 3 digits')
+            print('first number has 3 digits or less')
         if number3 is None:
             print('We have not asked for a third number')
         else:
