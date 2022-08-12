@@ -16,7 +16,5 @@ def run():
             print('The sum is: ',result, '\n')
 
 
-
-
 if __name__ == '__main__':
     run()
