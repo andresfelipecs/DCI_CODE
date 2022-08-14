@@ -7,7 +7,7 @@ def run():
         print('Please enter a number from 1 to 10')
     else:   
         while number != random_number:
-            if number < random_number or number > random_number:
+            #if number < random_number or number > random_number:
                 number = int(input("Guess a number between 1 and 10 until you get it right : "))
             
         print("Well guessed !")
