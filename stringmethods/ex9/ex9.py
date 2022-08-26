@@ -1,4 +1,5 @@
 def normalize():
+    
     string = input(str('Enter string: '))
     if string.isupper():
         string = string.lower() + string.join('!')
