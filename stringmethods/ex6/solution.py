@@ -10,7 +10,7 @@ as he looked."""
     x = given_string.index('Gregor')
     # print(x)
     output = '"' + given_string[124:125] + given_string[216:219] + given_string[5:6] + ' ' + given_string[18:24] + '"'
-    print(output)
+    print(f'\n {output}  \n')
 
 if __name__ == '__main__':
     run()
