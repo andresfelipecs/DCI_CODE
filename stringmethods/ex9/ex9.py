@@ -1,4 +1,4 @@
-def run():
+def normalize():
     string = input(str('Enter string: '))
     if string.isupper():
         string = string.lower() + string.join('!')
@@ -11,4 +11,4 @@ def run():
 
 
 if __name__ == '__main__':
-    run()
+    normalize()
