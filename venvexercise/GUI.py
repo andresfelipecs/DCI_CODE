@@ -6,7 +6,7 @@ def step_print():
     sg.theme('LightBlue')   # Add a touch of color
 
     layout = [  [sg.Text(size=(10,1))],
-                [sg.Text('Select an option, please: ')],
+                [sg.Text('Button menu, select the option: ')],
                 [sg.Text('')],
                 [sg.Button('Option: 1'), sg.Button('Option: 2'), sg.Button('Option: 3')],
                 [sg.Text('')],
