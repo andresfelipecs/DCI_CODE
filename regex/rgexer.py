@@ -1,8 +1,9 @@
-import re
+import re #import library re
 
+# define or declare the pattern variables with the regex
 pattern = '\S+\@\S+'
 pattern2 = '\w+h\wn'
-
+# define text
 text = """Hey Mr. Bezos,
 
 I hope its okay I message you in this unsecure email program. Sry about that!
@@ -15,16 +16,16 @@ donaldtothatrump@getthatcapitolmail.com
 
 Kind regards,
 Tanisha"""
-
+# define regex findall method in new variables 
 emails = re.findall(pattern, text)
 students_of = re.findall(pattern2, text)
-
+#print found matches 
 print('\n', 'Here are the emails: ', '\n')
 for email in emails:
     print(email)
 
 print('\n', 'Students of ', students_of, 'figured them out', '\n')
-
+# python snake
 print(
     '''
        ---_ ......._-_--.
