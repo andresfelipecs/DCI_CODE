@@ -14,7 +14,7 @@ def full_name():
 			first_name = arg
 		elif opt in ['-l', '--last_name']:
 			last_name = arg
-	
+
 
 	print( first_name +" " + last_name)
 	
