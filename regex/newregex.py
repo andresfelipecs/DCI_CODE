@@ -12,7 +12,7 @@ def run():
 
     # span() returns both start and end indexes in a single tuple.
     loc_in = location.span()
-    print(loc_in)
+    
     print('The first white-space character is located at position: ', loc_in[0], '\n')
 
     print('Task 2 ')
