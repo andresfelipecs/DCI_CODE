@@ -15,7 +15,6 @@ def run():
     
     print('The first white-space character is located at position: ', loc_in[0], '\n')
 
-
     print('Task 2 ')
 
     text = "Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital."
