@@ -11,6 +11,8 @@ def run():
 
     final_list = []
 
+    print('\n')
+
     for i in list:
 
         if len(i) > 5:
@@ -32,10 +34,7 @@ def run():
     print('"0023.07623070"   -->  ', final_list[0] )
     print('"hello world"     -->  ', final_list[1] )
     print('"01230"           -->  ', final_list[2] )
-
-
-
-    
+    print('\n')
 
 if __name__ == '__main__':
     run()

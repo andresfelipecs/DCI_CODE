@@ -9,6 +9,8 @@ def make_happy():
     pattern = '\:\(|8\(|x\(|;\('
     pattern2 = '\('
 
+    print('\n')
+
     for i in list:
 
         faces = re.findall(pattern, i)
@@ -19,7 +21,7 @@ def make_happy():
         replacement2 = re.sub(pattern, replacement, i )
 
         print('make_happy (', i, ')    --> ', replacement2)
-    
+    print('\n')
             
 if __name__ == '__main__':
     make_happy()

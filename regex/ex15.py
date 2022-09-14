@@ -7,6 +7,8 @@ def run():
         
     pattern = '\d+\s[\+\*\-\/]\s\d+'
 
+    print('\n')
+
     for i in list:
 
         finder = re.search(pattern, i)
@@ -16,6 +18,8 @@ def run():
 
         else: 
             print(i, '--> false')
-                  
+
+    print('\n')
+
 if __name__ == '__main__':
     run()

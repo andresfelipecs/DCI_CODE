@@ -11,5 +11,4 @@ Create a function that takes a string input as a number and replaces leading and
 "hello world"     -->   "hello world"  
 "01230"           -->   "1230"  
 ```
->>> [i for i, j in zip(a, b) if i == j]
-[5]
+trailing zero: zero at the end of a decimal number 
