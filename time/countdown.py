@@ -1,7 +1,7 @@
 from time import sleep
 import os
 
-def run():
+def run(): 
     
     x = int(input('\n Enter digit: \n '))
     y = x
