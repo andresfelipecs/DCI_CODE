@@ -10,7 +10,8 @@ def run():
     # print out current year
     # print(today.year)
     year = today.strftime("%Y")
-    print(year)
+    print(year) 
+    
 
     # Print the weekday of the week
     weekday = today.strftime('%A')
