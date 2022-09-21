@@ -15,5 +15,7 @@ def birthday():
 
     print( f'\n Since {birthday_date} have passed: \n {years} years, {months} months, {weeks} weeks, and {diff.days} days \n')
 
+
+    print(type(diff))
 if __name__ == "__main__":
     birthday()
