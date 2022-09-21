@@ -28,8 +28,8 @@ print(date_2)
 # datetime.strptime(usa_meeting, "%B %d, %Y")
 # strptime() Parse a string into a datetime object given a corresponding format
 
-date = 'January 1, 2005'
-p = datetime.strptime(date, "%B %d, %Y")
+dates = 'January 1, 2005'
+p = datetime.strptime(dates, "%B %d, %Y")
 print(p, type(p))
 # prints the time in format hour/minute/seconds
 # strftime() Convert object to a string according to a given format
