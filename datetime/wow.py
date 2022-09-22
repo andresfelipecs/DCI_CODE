@@ -1,5 +1,5 @@
 # Write a Python program to select all the Sundays of a specified year.
-from datetime import date, timedelta, datetime
+from datetime import date, timedelta
 import os
 
 def sundays_year():
@@ -16,7 +16,7 @@ def sundays_year():
         days_in_year.append(start_date)
         start_date += delta
     
-    print(f'\n All Sundays from the year {year}: ')
+    print(f'\n All Sundays in the year {year}: ')
     for i in days_in_year:
         day_name = i.strftime('%A')
         if day_name == 'Sunday':
