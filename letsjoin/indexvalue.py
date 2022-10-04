@@ -1,5 +1,8 @@
 
 
+from audioop import reverse
+
+
 lists = [ ["John",[ {"name": "Mary"} ], "Amy"], [ 32, 43,{'age': 100}, 51] ]
 
 print(lists[0][1][0]['name'])
@@ -15,3 +18,9 @@ for k in dic.keys():
 
 for v in dic.values():
     print(v)
+
+words = ['cat', 'aadvark', 'elephant', 'squirrel', 'hippo']
+words.sort()
+print(words)
+words.sort(reverse=True)
+print(words)
