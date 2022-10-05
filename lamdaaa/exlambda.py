@@ -8,9 +8,12 @@ books = [
 
 # readable!
 func = lambda book: book['cost']
-print(sorted(books, key=func))
+print(sorted(books, key=func, reverse=True))
+
+#def x(book):
+# return book['cost]
+# reverse sorts
 
 #sort by name
+print(sorted(books, key= lambda book: book['name'], reverse=True))
 
-func = lambda book: book['name']
-print(sorted(books, key=func))
