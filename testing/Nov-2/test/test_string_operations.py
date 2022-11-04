@@ -12,4 +12,5 @@ class Test_String_Operations(unittest.TestCase):
         self.assertEqual(join_names(lst), 'felipe castro salazar')
 
 if __name__ == '__main__':
+    
     unittest.main()
