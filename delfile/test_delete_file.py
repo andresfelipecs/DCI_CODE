@@ -6,6 +6,7 @@ from delete_file import rm
 class TestDeleteFile(unittest.TestCase):
 
     def test_deletion(self):
+        #context manager
         with patch('os.remove'): # simulating this remove function in the os library
             output = rm('some_file.txt')
             self.assertEqual(output, 'some_file.txt has been deleted!')
